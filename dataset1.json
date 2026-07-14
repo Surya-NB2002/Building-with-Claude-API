@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high carbohydrate intake and optimized pre/post-workout nutrition timing",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers 1 full day with breakfast, lunch, dinner, and snacks",
+      "Includes pre-workout and post-workout meals with appropriate timing and macronutrient composition",
+      "Carbohydrates comprise 55-65% of total daily calories to support endurance training",
+      "Plan is compact and concise (under 400 tokens) while respecting all dietary restrictions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high carbohydrate intake and specific pre/post-workout nutrition timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "75",
+      "goal": "optimize performance and recovery for soccer match day",
+      "restrictions": "vegan"
+    },
+    "solution_criteria": [
+      "Meal plan is 1 day only and includes breakfast, lunch, pre-match, and post-match meals",
+      "All foods are vegan with no animal products",
+      "Provides adequate carbohydrates and protein to support soccer performance and recovery",
+      "Plan is concise and practical to prepare for a single athlete"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary constraint scenario (vegan soccer player) that requires meeting performance nutrition needs while respecting dietary restrictions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "85 kg",
+      "goal": "Muscle gain with caloric surplus for strength training",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains 4-5 meals with protein distributed across each meal (minimum 30g per meal)",
+      "Total daily calories support a moderate surplus (approximately 500+ calories above maintenance)",
+      "Includes specific foods and approximate portion sizes for practical implementation",
+      "Compact format with clear meal timing and macronutrient focus on protein for muscle gain"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power sport athlete (weightlifter) emphasizing protein distribution across meals and caloric surplus for muscle gain"
+  }
+]
