@@ -40,3 +40,12 @@ There's no shared package or build step — notebooks are meant to be run and ed
 - Work through the notebooks roughly in the order above — later ones (tool use, streaming, built-in tools) build on the request/response and message-handling basics from the earlier ones.
 - Duplicate a notebook before making large edits if you want to keep the original example intact for reference.
 - See `CLAUDE.md` for more detail on the shared code patterns (message helpers, tool-use loop) if you're using Claude Code to work in this repo.
+
+### Subprojects
+
+This repo also contains standalone subprojects, each with its own `README.md` and `CLAUDE.md`:
+
+| Directory | What it is |
+|---|---|
+| [`Claude features/`](./Claude%20features/README.md) | More notebooks, covering advanced API features: prompt caching, citations, code execution, extended thinking, and image/PDF support |
+| [`cli_project/`](./cli_project/README.md) | A standalone Python CLI chat app ("MCP Chat") built on the Anthropic API and the Model Context Protocol, with document tools/resources/prompts |
